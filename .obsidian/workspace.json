@@ -31,10 +31,14 @@
             "id": "515611553b826633",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "RHCSA/Container.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Container"
             }
           }
         ]
@@ -188,6 +192,7 @@
   "active": "515611553b826633",
   "lastOpenFiles": [
     "RHCSA/Exam Question.md",
+    "RHCSA/Container.md",
     "Welcome.md",
     "README.md",
     "create a link.md",
