@@ -12,4 +12,11 @@ install podman in your device
 	- Pull the Alpine image (lightweight Linux)
 	- Run it and print "Hello..."
 	- Remove the container after it exits
-	- 
+4. Run a Persistant Container 
+	. podman run -dit --name mycontainer alpine
+		This will:
+	- `-d` run in detached mode
+	- `-i` keep STDIN open
+	- `-t` allocate a pseudo-TTY
+	- `--name` gives it a name
+	
