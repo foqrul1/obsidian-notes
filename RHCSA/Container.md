@@ -19,4 +19,7 @@ install podman in your device
 	- `-i` keep STDIN open
 	- `-t` allocate a pseudo-TTY
 	- `--name` gives it a name
+	- Then Enter it:
+			podman exec -it mycontainer sh
+	- exit with #"exit"
 	
