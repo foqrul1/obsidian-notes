@@ -22,4 +22,7 @@ install podman in your device
 	- Then Enter it:
 			podman exec -it mycontainer sh
 	- exit with #"exit"
+5. List of Running Container
+	. podman ps
+	
 	
