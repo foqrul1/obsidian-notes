@@ -47,4 +47,10 @@ install podman in your device
 25. ssh alth@localhost
 26. make sure you your image must be on under normal user not in root user
 27. podman run -dit --name asciipdf -v /opt/files://opt/incoming:Z -v /opt/processed:/opt/outgoing:Z monitor
+28. podman ps
+29. mkdir -p .config/systemd/user
+30. cd ~/.config/systemd/user
+31. podman generate systemd --name asciipdf --new --files
+32. systemctl --user daemon-reload
+33. 
 	
