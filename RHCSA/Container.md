@@ -46,5 +46,5 @@ install podman in your device
 24. chown alth:alth /opt/process
 25. ssh alth@localhost
 26. make sure you your image must be on under normal user not in root user
-27. 
+27. podman run -dit --name asciipdf -v /opt/files://opt/incoming:Z -v /opt/processed:/opt/outgoing:Z monitor
 	
