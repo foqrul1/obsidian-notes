@@ -52,5 +52,7 @@ install podman in your device
 30. cd ~/.config/systemd/user
 31. podman generate systemd --name asciipdf --new --files
 32. systemctl --user daemon-reload
-33. 
+33. systemctl --user start container-asciipdf.service
+34. systemctl --user enable container-asciipdf.service
+35. systemctl --user status container-asciipdf.service
 	
