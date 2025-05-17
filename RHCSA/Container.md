@@ -24,5 +24,10 @@ install podman in your device
 	- exit with #"exit"
 5. List of Running Container
 	. podman ps
-	
+
+6. useradd alth
+7. passwd alth
+8. ssh-keygen
+9. enter-> enter
+10. 
 	
