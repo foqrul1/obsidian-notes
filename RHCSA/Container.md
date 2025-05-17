@@ -29,5 +29,21 @@ install podman in your device
 7. passwd alth
 8. ssh-keygen
 9. enter-> enter
-10. 
+10. ssh-copy-id-i  /root/ .ssh/id_rsa-pub alth@localhost
+11. enter
+12. enter enter
+13. vim containerfile
+14.  FROM docker.io/nginx
+15. podman build -t monitor .
+16. podman images
+17. yum install podman* -y
+18. podman start podman.service
+19. podman start podman.socket
+20. podman enable podman.service podman.socket
+21. mkdir /opt/files /opt/outprocess
+22. mkdir /opt/process
+23. chown alth:alth /opt/files
+24. chown alth:alth /opt/process
+25. ssh alth@localhost
+26. 
 	
