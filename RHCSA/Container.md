@@ -55,4 +55,7 @@ install podman in your device
 33. systemctl --user start container-asciipdf.service
 34. systemctl --user enable container-asciipdf.service
 35. systemctl --user status container-asciipdf.service
+36. loginctl enable-linger
+37. loginctl show-user alth
+38. 
 	
