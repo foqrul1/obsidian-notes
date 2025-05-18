@@ -34,6 +34,7 @@ install podman in your device
 12. enter enter
 13. vim containerfile
 14.  FROM docker.io/nginx
+	   RUN mkdir -p /action/incoming /action/outgoing
 15. podman build -t monitor .
 16. podman images
 17. yum install podman* -y
