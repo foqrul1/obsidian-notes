@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RHCSA/Container.md",
+                "file": "Jetpatch/windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Container"
+              "title": "windows"
             }
           }
         ]
@@ -169,11 +169,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "26ae178be1994ecd",
+  "active": "345f44973c2b9872",
   "lastOpenFiles": [
+    "RHCSA/Container.md",
+    "Jetpatch/windows.md",
     "Jetpatch",
     "RHCSA/Exam Question.md",
-    "RHCSA/Container.md",
     "Welcome.md",
     "README.md",
     "create a link.md",
