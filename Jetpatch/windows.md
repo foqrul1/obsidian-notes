@@ -17,3 +17,9 @@
 		->- Enable the execution policy by going to **_Computer Configuration -> Administrative Templates -> Windows Components -> Windows PowerShell_** _->_
     - _**Turn on Script Execution** -> Enable the policy and set "Allow local scripts and remote signed scripts" in the "Options" section_
 
+
+
+_**Optional Policy**_
+
+- Restrict users not to pause the updates in the endpoints enable this policy.
+    - _**Computer Configuration -> Administrative Templates -> Windows Components -> Windows Updates ->**_ _**Remove Access to "Pause updates" feature** -> Enable the Policy._
