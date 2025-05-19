@@ -36,27 +36,28 @@ install podman in your device
 14.  FROM docker.io/nginx
 	   RUN mkdir -p /action/incoming /action/outgoing
 15. podman build -t monitor .
-16. podman images
-17. yum install podman* -y
-18. podman start podman.service
-19. podman start podman.socket
-20. podman enable podman.service podman.socket
-21. mkdir /opt/files /opt/outprocess
-22. mkdir /opt/process
-23. chown alth:alth /opt/files
-24. chown alth:alth /opt/process
-25. ssh alth@localhost
-26. make sure you your image must be on under normal user not in root user
-27. podman run -dit --name asciipdf -v /opt/files://opt/incoming:Z -v /opt/processed:/opt/outgoing:Z monitor
-28. podman ps
-29. mkdir -p .config/systemd/user
-30. cd ~/.config/systemd/user
-31. podman generate systemd --name asciipdf --new --files
-32. systemctl --user daemon-reload
-33. systemctl --user start container-asciipdf.service
-34. systemctl --user enable container-asciipdf.service
-35. systemctl --user status container-asciipdf.service
-36. loginctl enable-linger
-37. loginctl show-user alth
-38. 
+16. sudo podman build -t pdfconvert -f Containerfile .
+17. podman images
+18. yum install podman* -y
+19. podman start podman.service
+20. podman start podman.socket
+21. podman enable podman.service podman.socket
+22. mkdir /opt/files /opt/outprocess
+23. mkdir /opt/process
+24. chown alth:alth /opt/files
+25. chown alth:alth /opt/process
+26. ssh alth@localhost
+27. make sure you your image must be on under normal user not in root user
+28. podman run -dit --name asciipdf -v /opt/files://opt/incoming:Z -v /opt/processed:/opt/outgoing:Z monitor
+29. podman ps
+30. mkdir -p .config/systemd/user
+31. cd ~/.config/systemd/user
+32. podman generate systemd --name asciipdf --new --files
+33. systemctl --user daemon-reload
+34. systemctl --user start container-asciipdf.service
+35. systemctl --user enable container-asciipdf.service
+36. systemctl --user status container-asciipdf.service
+37. loginctl enable-linger
+38. loginctl show-user alth
+39. 
 	
