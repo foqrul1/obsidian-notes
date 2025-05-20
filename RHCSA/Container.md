@@ -49,15 +49,26 @@ install podman in your device
 26. ssh alth@localhost
 27. make sure you your image must be on under normal user not in root user
 28. podman run -dit --name asciipdf -v /opt/files://opt/incoming:Z -v /opt/processed:/opt/outgoing:Z monitor
-29. podman ps
-30. mkdir -p .config/systemd/user
-31. cd ~/.config/systemd/user
-32. podman generate systemd --name asciipdf --new --files
-33. systemctl --user daemon-reload
-34. systemctl --user start container-asciipdf.service
-35. systemctl --user enable container-asciipdf.service
-36. systemctl --user status container-asciipdf.service
-37. loginctl enable-linger
-38. loginctl show-user alth
-39. 
+29. podman run -dit --name asciipdf_v2 \
+	  -v /opt/input/:/action/incoming:Z \
+	  -v /opt/processed/:/action/outgoing/:Z \
+	  pdfconvert
+30. podman --runtime /usr/bin/runc run -dit \
+	  --name ascii2pdf \
+	  -v /opt/input/:/action/incoming:Z \
+	  -v /opt/processed/:/action/outgoing:Z \
+	  pdfconvert
+
+
+31. podman ps
+32. mkdir -p .config/systemd/user
+33. cd ~/.config/systemd/user
+34. podman generate systemd --name asciipdf --new --files
+35. systemctl --user daemon-reload
+36. systemctl --user start container-asciipdf.service
+37. systemctl --user enable container-asciipdf.service
+38. systemctl --user status container-asciipdf.service
+39. loginctl enable-linger
+40. loginctl show-user alth
+41. 
 	
