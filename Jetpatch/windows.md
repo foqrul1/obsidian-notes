@@ -6,6 +6,7 @@
 		->**_Specify intranet Microsoft update service_** _->_ Enable the policy and set both URL’s in the "Options" section:
  [_http://Your_WSUS_Server_Hostname:8530_](http://wsusserverip:8530/) 
     - Note: if [using SSL](https://kc.jetpatch.com/hc/en-us/articles/360043618872-Enabling-SSL-on-WSUS-) use **https** and **8531**
+    - http://10.124.9.98:8530
 
 		-> - **_Automatic Update detection frequency_** _->_ Enable the policy and set "Check for updates at the following interval (hours)" in the "Options" section:
     - _4 hours_
