@@ -5,7 +5,7 @@
 	GW: 172.25.250.254
 	DNS: 172.25.250.220
 	NB: All partition should be created on /dev/vdb
-	Ans-> 
+	Ans->  
 
 
 
