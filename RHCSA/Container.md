@@ -72,4 +72,20 @@ install podman in your device
 39. loginctl enable-linger
 40. loginctl show-user alth
 41. 
-	
+
+mkdir /demo
+cd /demo
+vim Containerfile
+FROM nginx:alpine
+
+# Install bash and rsync
+
+# Create working directories
+RUN mkdir -p /action/incoming /action/outgoing
+
+# Add the rsync script
+COPY rsync_handler.sh /usr/local/bin/rsync_handler.sh
+RUN chmod +x /usr/local/bin/rsync_handler.sh
+
+# Run rsync handler in background and start nginx
+CMD ["/bin/sh", "-c", "/usr/local/bin/rsync_handler.sh & nginx -g 'daemon off;'"]
