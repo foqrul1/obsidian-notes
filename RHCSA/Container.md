@@ -9,7 +9,8 @@ install podman in your device
 3. Run a simple Container using alpine image
 	. podman run --rm alpine echo "Hello, Container World!."
 	This will:
-	- Pull the Alpine image (lightweight Linux)
+	- Pull the Alpine image (lightweight
+	- Linux)
 	- Run it and print "Hello..."
 	- Remove the container after it exits
 4. Run a Persistant Container 
