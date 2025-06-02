@@ -87,5 +87,5 @@ RUN mkdir -p /action/incoming /action/outgoing
 COPY rsync_handler.sh /usr/local/bin/rsync_handler.sh
 RUN chmod +x /usr/local/bin/rsync_handler.sh
 
-# Run rsync handler in background and start nginx
+Run rsync handler in background and start nginx
 CMD ["/bin/sh", "-c", "/usr/local/bin/rsync_handler.sh & nginx -g 'daemon off;'"]
