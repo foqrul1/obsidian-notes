@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RHCSA/Container.md",
+                "file": "Zira Related/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Container"
+              "title": "Untitled"
             }
           }
         ],
@@ -184,17 +184,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "26ae178be1994ecd",
+  "active": "8c31c129c5804ba0",
   "lastOpenFiles": [
-    "Untitled",
+    "Zira Related/Slack.md",
+    "Zira Related/Untitled.md",
+    "README.md",
+    "RHCSA/Container.md",
+    "Zira Related",
     "RHCSA/Exam Question.md",
     "Learning Term.md",
     "Jetpatch/windows.md",
-    "RHCSA/Container.md",
     "Linux",
     "Jetpatch",
     "Welcome.md",
-    "README.md",
     "create a link.md",
     "RHCSA"
   ]
