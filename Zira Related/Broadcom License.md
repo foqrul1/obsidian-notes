@@ -1,1 +1,1 @@
-entitlement-> license-> all license(click all)-> 
+entitlement-> license-> all license(click all)-> license key -> export to csv -> 
