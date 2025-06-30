@@ -1,1 +1,1 @@
-entitlement-> license
+entitlement-> license-> all license(click all)-> 
