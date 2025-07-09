@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "what is Kubarnetes.md",
+                "file": "Kubarnetes/what is Kubarnetes.md",
                 "mode": "source",
                 "source": false
               },
@@ -212,10 +212,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d91c01db22f8ac5",
+  "active": "26ae178be1994ecd",
   "lastOpenFiles": [
     "n8n.md",
-    "what is Kubarnetes.md",
+    "Kubarnetes/what is Kubarnetes.md",
     "Kubarnetes",
     "Zira Related/Broadcom License.md",
     "Zira Related/Slack.md",
