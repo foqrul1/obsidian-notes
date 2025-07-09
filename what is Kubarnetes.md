@@ -1,4 +1,4 @@
 **Kubernetes (K8s)** is an open-source **container orchestration platform** designed to automate the deployment, scaling, and management of containerized applications. It was originally developed by Google and is now maintained by the **Cloud Native Computing Foundation (CNCF)**.
 
 
-#sudo**Easy To Understand**
+# Easy To Understand
