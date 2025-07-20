@@ -25,7 +25,5 @@ _**Optional Policy**_
 - Restrict users not to pause the updates in the endpoints enable this policy.
     - _**Computer Configuration -> Administrative Templates -> Windows Components -> Windows Updates ->**_ _**Remove Access to "Pause updates" feature** -> Enable the Policy._
 - now linux
-etgswghgfesg
-
 
 
