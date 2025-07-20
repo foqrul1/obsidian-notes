@@ -27,5 +27,3 @@ _**Optional Policy**_
 - now linux
 
 
-cd ~/taiga/taiga-back/settings/
-cp config.py.dev.example config.py
