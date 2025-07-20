@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Jetpatch/windows.md",
+                "file": "Zira Related/Broadcom License.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "windows"
+              "title": "Broadcom License"
             }
           }
         ],
@@ -214,6 +214,7 @@
   },
   "active": "3d91c01db22f8ac5",
   "lastOpenFiles": [
+    "Jetpatch/windows.md",
     "Welcome.md",
     "README.md",
     "Kubarnetes/what is Kubarnetes.md",
@@ -225,7 +226,6 @@
     "Zira Related",
     "RHCSA/Exam Question.md",
     "Learning Term.md",
-    "Jetpatch/windows.md",
     "Linux",
     "Jetpatch",
     "create a link.md",
