@@ -380,8 +380,5 @@ Kubernetes is like a **self-driving pizza restaurant**—you just say _what you 
 
 Want to **practice**? Try:
 
-sh
-
-minikube start  # Runs a tiny Kubernetes on your laptop
-kubectl run hello-pizza --image=nginx  # Deploy a test "pizza"
+#sudoMonolithic Architecture
 
