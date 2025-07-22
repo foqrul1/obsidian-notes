@@ -387,7 +387,7 @@ means composed in all in piece.  all software uses a single piece of database. a
 
 # #Scale Horizontally/Vertically behind a load balancer: if you have heavy traffic in your server. to reduce traffic you can do 2 things, first upgrade no. of CPU, Memory to reduce traffic called vertically and making another similar server and balance the load these 2 server frequently called horizontally.
 
-
+ 
 
 
 	
