@@ -385,7 +385,7 @@ means composed in all in piece.  all software uses a single piece of database. a
 
 #Microservice: you have to use different software for different service also use different db.
 
-#Scale Horizontally behind a load balancer:
+#Scale Horizontally behind a load balancer: if you have heavy 
 
 #Scale Vertically behind a load balancer:
 	
