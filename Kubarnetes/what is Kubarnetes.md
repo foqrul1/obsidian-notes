@@ -381,7 +381,7 @@ Kubernetes is like a **self-driving pizza restaurant**—you just say _what you 
 Want to **practice**? Try:
 
 #Monolithic Architecture
-means composed in all in piece.  all software uses a single piece of database.
+means composed in all in piece.  all software uses a single piece of database. all software turned into a one software using  
 
 	
 		
