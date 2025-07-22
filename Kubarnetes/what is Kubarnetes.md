@@ -380,5 +380,6 @@ Kubernetes is like a **self-driving pizza restaurant**—you just say _what you 
 
 Want to **practice**? Try:
 
-#sudoMonolithic Architecture
+# Monolithic Architecture
+		
 
