@@ -387,9 +387,27 @@ means composed in all in piece.  all software uses a single piece of database. a
 
 # #Scale Horizontally/Vertically behind a load balancer: if you have heavy traffic in your server. to reduce traffic you can do 2 things, first upgrade no. of CPU, Memory to reduce traffic called vertically and making another similar server and balance the load these 2 server frequently called horizontally.
 
+#Microservice 
+		Client >> request  >> Landingpase/UserInterface >> >   node1 >> OS >> Linux >> -- ----ride.rpm >> 80 Listen (php-v-xx.10)
+		-food.rpm >> 80 Listen(php-v-yy.11)
+
+
+Microservice
+		-Ride   >> ride.rpm (web service:80)
+		- Food >>  food.rpm(Webservice:80)
+		- Payment >> payment.rpm(webservice:80)
  
 
+#Virtualization 
+	we can run multiple server in one physical hardware(Processor, Ram, disk, network) for better utilization called virtualization
+#Hypervisor
+	those system give a platform/interface/environment  to slice/divide  physical server to divide multiple server called HYPERVISOR
+	 Hypervisor-> type1- BARE METAL- Vmware esxi/HyperV/KVM
+			-> type2- HOSTED- Oracle Virtual Box/Vmware Workstation/ Vmware Fusion
 
-	
+		VM1 >>> [Room1>> ride:80] + [Room2>> Food:80] + [Room3>> payment:80]	
+
+#Containerization Technology
+	OS virtualization.
 		
 
