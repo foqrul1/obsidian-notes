@@ -429,8 +429,15 @@ is a software that accepts user request, including command line options, pull im
 -> Docker engine
 -> RKT9Rocket)
 -> LXC/LXD>> LXC 
--> CRI
+-> CRIO
 -> Podman
+
+
+|   Virtual Machine  |  Container   |
+
+VM-> Infrastructure -> Hypervisor -> Guest OS -> Bins/Libs -> App1/App2/App3
+
+Container -> Infrastructure -> OS -> Container Engine -> Bins/Lib -> App1/App2/App3
 
 
 
