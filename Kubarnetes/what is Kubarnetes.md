@@ -408,6 +408,31 @@ Microservice
 		VM1 >>> [Room1>> ride:80] + [Room2>> Food:80] + [Room3>> payment:80]	
 
 #Containerization Technology
-	OS virtualization.
+	OS virtualization. multiple OS making virtualization called containerization.  or you can said it to virtualization of kernel.
+
 		
+#kernel
+		managing resource management.
+Continer1 >> (Code(ex::python) +Librarry+Dependency+ Binary+OS full) >>(all include to make a images) Images >>RUN(after image Run) >> Container >> Process
+
+==Container1 >> BaseOS(Without Kernel) +Code(Python) + Lib +Binary >> Image==
+==container e access korle tader BaseOS alada alada hobe. i mean alada alada Container er jonno maybe alada alada OS hobe. but when we tried to use "uname -r" we find kernel version of this container and all container kernel version will be same. beacause container have no own kernel they use host OS kernel.==
+
+namespace means "virtual cluster". 
+
+Cgroup:
+
+seLinux: 
+
+#Container Engine: 
+is a software that accepts user request, including command line options, pull images.
+-> Docker engine
+-> RKT9Rocket)
+-> LXC/LXD>> LXC 
+-> CRI
+-> Podman
+
+
+
+
 
