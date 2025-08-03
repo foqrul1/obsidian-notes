@@ -440,6 +440,87 @@ VM-> Infrastructure -> Hypervisor -> Guest OS -> Bins/Libs -> App1/App2/App3
 Container -> Infrastructure -> OS -> Container Engine -> Bins/Lib -> App1/App2/App3
 
 
+### ✅ 1. **Docker Engine**
+
+- **What it is**: The most popular container runtime.
+    
+- **What it does**: Builds, runs, and manages containers using `docker` commands.
+    
+- **Used in**: Early Kubernetes versions (before v1.20+).
+    
+- **Pros**: Easy to use, great community, lots of tools.
+    
+- **Note**: Kubernetes now uses **containerd** instead of Docker by default (though Docker still uses containerd under the hood).
+    
+
+---
+
+### ✅ 2. **rkt (Rocket)**
+
+- **What it is**: A container runtime developed by CoreOS.
+    
+- **What it does**: Meant to be more secure and Kubernetes-focused than Docker.
+    
+- **Status**: ❌ **No longer maintained**. It’s deprecated and not used anymore.
+    
+
+---
+
+### ✅ 3. **LXC / LXD**
+
+- **What it is**: LXC = Linux Containers. LXD = LXC Daemon (manager).
+    
+- **What it does**: Provides **lightweight virtual machines** (VM-like).
+    
+- **Used for**: Long-running system containers, not app containers like Docker.
+    
+- **Think of it as**: Closer to a virtual machine than an app-level container.
+    
+- **Used in Kubernetes?** Rarely.
+    
+
+---
+
+### ✅ 4. **CRI-O**
+
+- **What it is**: A lightweight runtime **made specifically for Kubernetes**.
+    
+- **What it does**: Runs containers using **Kubernetes CRI (Container Runtime Interface)**.
+    
+- **Faster & simpler** than Docker because it removes unneeded features.
+    
+- **Used with**: OpenShift, Kubernetes (Red Hat prefers CRI-O).
+    
+- **Pro**: Secure and Kubernetes-native.
+    
+
+---
+
+### ✅ 5. **Podman**
+
+- **What it is**: A Docker replacement developed by Red Hat.
+    
+- **Main benefit**: No daemon. Runs containers **without needing root access** (more secure).
+    
+- **Can run Kubernetes Pods** directly.
+    
+- **Command**: `podman` (almost same as `docker` commands).
+    
+- **Bonus**: You can generate Kubernetes YAML from Podman containers!
+    
+
+---
+
+## 🔁 Summary Table
+
+|Runtime|Still Used?|Easy to Use?|Kubernetes Compatible?|Rootless?|
+|---|---|---|---|---|
+|Docker|✅ Yes|✅ Very easy|❌ Not directly now|❌ No|
+|rkt|❌ No|❌ Obsolete|❌ No|❌ No|
+|LXC/LXD|✅ Rare use|⚠️ Moderate|⚠️ Not for apps|❌ No|
+|CRI-O|✅ Yes|⚠️ Not for beginners|✅ Yes|❌ No|
+|Podman|✅ Yes|✅ Yes|✅ Yes|✅ Yes| 
+
 
 
 
