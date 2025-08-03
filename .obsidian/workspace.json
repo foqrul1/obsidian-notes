@@ -50,20 +50,6 @@
             }
           },
           {
-            "id": "3d91c01db22f8ac5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubarnetes/what is Kubarnetes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "what is Kubarnetes"
-            }
-          },
-          {
             "id": "0ee68d1c521634de",
             "type": "leaf",
             "state": {
@@ -78,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -228,19 +214,19 @@
   },
   "active": "0ee68d1c521634de",
   "lastOpenFiles": [
-    "Kubarnetes/Networking.md",
+    "RHCSA/Exam Question.md",
+    "Zira Related/Broadcom License.md",
+    "n8n.md",
     "Kubarnetes/what is Kubarnetes.md",
+    "Kubarnetes/Networking.md",
     "Jetpatch/windows.md",
     "Zira Related/Slack.md",
-    "Zira Related/Broadcom License.md",
     "test",
     "Welcome.md",
     "README.md",
-    "n8n.md",
     "Kubarnetes",
     "RHCSA/Container.md",
     "Zira Related",
-    "RHCSA/Exam Question.md",
     "Learning Term.md",
     "Linux",
     "Jetpatch",

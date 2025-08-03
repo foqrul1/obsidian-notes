@@ -524,3 +524,6 @@ Container -> Infrastructure -> OS -> Container Engine -> Bins/Lib -> App1/App2/A
 
 
 
+#Cloud Computing 
+on demand delivery of computes power, database, storage, applications, and other IT resources through a cloud service.
+
