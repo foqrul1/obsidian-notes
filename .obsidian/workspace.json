@@ -55,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubarnetes/what is Kubarnetes.md",
+                "file": "AWS- Cloud Computing/AWS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "what is Kubarnetes"
+              "title": "AWS"
+            }
+          },
+          {
+            "id": "9aac3e3df08bfe74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "proxy settings.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "proxy settings"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -212,25 +226,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ee68d1c521634de",
+  "active": "9aac3e3df08bfe74",
   "lastOpenFiles": [
+    "AWS- Cloud Computing/AWS.md",
+    "proxy settings.md",
+    "Kubarnetes/Networking.md",
+    "Kubarnetes/what is Kubarnetes.md",
+    "RHCSA/Container.md",
     "RHCSA/Exam Question.md",
+    "Zira Related/Slack.md",
+    "create a link.md",
+    "Learning Term.md",
+    "README.md",
+    "Jetpatch/windows.md",
+    "AWS- Cloud Computing",
     "Zira Related/Broadcom License.md",
     "n8n.md",
-    "Kubarnetes/what is Kubarnetes.md",
-    "Kubarnetes/Networking.md",
-    "Jetpatch/windows.md",
-    "Zira Related/Slack.md",
     "test",
     "Welcome.md",
-    "README.md",
     "Kubarnetes",
-    "RHCSA/Container.md",
     "Zira Related",
-    "Learning Term.md",
     "Linux",
     "Jetpatch",
-    "create a link.md",
     "RHCSA"
   ]
 }
