@@ -45,3 +45,5 @@ SAAS - Software as a Service
 				- Pulic Key(tala)
 
 ssh-keygen
+
+VPC design always set by private IP not by public IP.
