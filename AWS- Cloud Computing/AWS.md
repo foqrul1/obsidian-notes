@@ -47,3 +47,5 @@ SAAS - Software as a Service
 ssh-keygen
 
 VPC design always set by private IP not by public IP.
+==Elastic IP==
+Fixed IP address. instance delete korar por o Elastic IP theke jabe. Elastic IP release korar ag porjonto Elastic IP theke jabe
