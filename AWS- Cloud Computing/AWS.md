@@ -49,3 +49,14 @@ ssh-keygen
 VPC design always set by private IP not by public IP.
 ==Elastic IP==
 Fixed IP address. instance delete korar por o Elastic IP theke jabe. Elastic IP release korar ag porjonto Elastic IP theke jabe
+
+
+EC2> instance
+## CloudTrail events (1)
+Track Log
+
+**Virtual Private Cloud**
+VPC is a Virtual Networking Environment(VNE) in AWS Cloud.
+
+private/public subnet:
+using browser we can use the web server through a network but cannot access database server but web server can access their database server. that web server we can access through network called public Subnet and through which network we can access database server called private Subnet
