@@ -55,8 +55,15 @@ EC2> instance
 ## CloudTrail events (1)
 Track Log
 
-**Virtual Private Cloud**
-VPC is a Virtual Networking Environment(VNE) in AWS Cloud.
+==**Virtual Private Cloud(VPC)**==
+VPC is a Virtual Networking Environment(VNE) in AWS Cloud. VPC provide security group. VPC provide NAC .
 
 private/public subnet:
 using browser we can use the web server through a network but cannot access database server but web server can access their database server. that web server we can access through network called public Subnet and through which network we can access database server called private Subnet
+In short, which subnet internet facing is called public subnet, which subnet facing intranet facing called private subnet.
+
+**==SDN==**
+Software Define Network. Software based Network Service. Programmatic Router.
+
+
+
