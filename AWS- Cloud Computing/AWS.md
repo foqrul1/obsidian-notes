@@ -65,5 +65,10 @@ In short, which subnet internet facing is called public subnet, which subnet fac
 **==SDN==**
 Software Define Network. Software based Network Service. Programmatic Router.
 
+*A single instance can manage 5 different Security Group
+*A single VPC can attach to one IGW same as single IGW can attach to a single VPC.
+*NACL is a subnet level firewall and SG is a instance level firewall
+
+
 
 
