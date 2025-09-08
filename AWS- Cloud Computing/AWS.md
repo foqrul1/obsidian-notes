@@ -70,5 +70,11 @@ Software Define Network. Software based Network Service. Programmatic Router.
 *NACL is a subnet level firewall and SG is a instance level firewall
 
 
+Security Group is a stateful.
+statefull/stateless->  If instance sends request to go another instance, its also allowed to get back/return request to that instance. called statefull.
+Stateless- if instance sends request to another instance then NACL should allow again when its return to get back request.
 
+Default Security Group cannot be deleted.
+
+Windows ICS: Windows Internet Connection Sharing er moddhe internet connection enable kora jay
 

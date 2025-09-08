@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "proxy settings.md",
+                "file": "AWS- Cloud Computing/AWS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "proxy settings"
+              "title": "AWS"
             }
           }
         ],
@@ -228,8 +228,8 @@
   },
   "active": "9aac3e3df08bfe74",
   "lastOpenFiles": [
-    "AWS- Cloud Computing/AWS.md",
     "proxy settings.md",
+    "AWS- Cloud Computing/AWS.md",
     "Kubarnetes/Networking.md",
     "Jetpatch/windows.md",
     "Kubarnetes/what is Kubarnetes.md",
