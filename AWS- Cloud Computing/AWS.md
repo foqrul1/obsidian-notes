@@ -71,10 +71,69 @@ Software Define Network. Software based Network Service. Programmatic Router.
 
 
 Security Group is a stateful.
-statefull/stateless->  If instance sends request to go another instance, its also allowed to get back/return request to that instance. called statefull.
+stateful/stateless->  If instance sends request to go another instance, its also allowed to get back/return request to that instance. called statefull.
 Stateless- if instance sends request to another instance then NACL should allow again when its return to get back request.
 
 Default Security Group cannot be deleted.
 
 Windows ICS: Windows Internet Connection Sharing er moddhe internet connection enable kora jay
 
+IP forwarding- if i want to use a linux machine as a router i have to enable IP forwarding. by defaults it's disabled. Because when a request come to this machine it's need to forwarding that ip. If i use a OS as a router called NAT instance.
+
+NAT Gateway/Router
+
+for public IP it's need to Internet Gateway to access internet and for Private IP's its need to NAT to get internet.
+
+
+
+
+NAT Gateway/Router
+Steps to deploy NAT instance/Gateway
+-NAT instance:
+		-Create Security Group and allow all inbound and outbound Traffic.
+		-Create NAT instance/Gateway in Public Subnet with Newly created SG.
+		-Assign Public/EIP in instance/Gateway
+		-Enable IP forwarding 
+		- Configure NAT/MASQUERADE
+		- add defaults route via NAT instance
+		- disable source and Destination check in Instance
+
+When i ping 8.8.8.8 from any private server it's not pass or get ping because:
+	1. not enable IP forwarding
+	2. Not enabled Masquerade
+	3. Source and destination check not disabled.
+
+1. Check not enable IP forwarding: cat /proc/sys/net/ipv4/ip_forward
+		if result is 0 then enabled it.
+		echo 1 >/proc/sys/net/ipv4/ip_forward
+2. Not enabled Masquerade:
+   ## What is Masquerade?
+- **Masquerade** is a type of **NAT (Network Address Translation)**.
+- It’s often called **Source NAT (SNAT)** where the **private IP of a device** is replaced (masqueraded) by the **public IP of the gateway/router** when going out to the internet.
+In Linux, this is usually done with **iptables/nftables** using the `MASQUERADE` target.
+
+---
+
+## 🔹 How it Works
+
+Imagine you have a private subnet `192.168.1.0/24` with a Linux router that has a public IP `203.0.113.10`.
+
+1. A private host `192.168.1.100` sends traffic to the internet (say Google)
+2. The router rewrites the source IP from **192.168.1.100 → 203.0.113.10**.
+3. Google replies to `203.0.113.10`.    
+4. The router remembers the connection and translates the reply back to `192.168.1.100`.
+So, **many private machines can share one public IP**.
+
+
+		Private                     Public
+-------------------------------------------------
+	DB1                                                         WEB
+	(anyInstanceofPrivateSubnet)                NAT-Instance
+
+Production:
+
+-Subnet
+	 - Public Subnet                                               >>Web Server
+	 - Private Subnet with Internet                         >>DB
+	 - Private Subnet without No Internet              >> Financial Server
+ 
