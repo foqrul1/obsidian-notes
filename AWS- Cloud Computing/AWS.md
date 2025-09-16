@@ -136,4 +136,12 @@ Production:
 	 - Public Subnet                                               >>Web Server
 	 - Private Subnet with Internet                         >>DB
 	 - Private Subnet without No Internet              >> Financial Server
+-Create another Route Table:
+		-Create SUbnet
+		- Associate subnet to newly created route Table
+		-
+NACL- Network ACL. Subnet level firewall.  it's a stateless. you need to allow incoming and outgoing both. for NACL inbound outbound by default block.
+ you cannot create multiple NACL rule in one subnet but you can create multiple NACL rule in one VPC. we have decided in NACL is not  data outgoing from source, it's data incoming to destination.
  
+ 
+Security Group is a stateful.
