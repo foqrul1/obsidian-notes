@@ -8,7 +8,9 @@ Forward Proxy: If we want to data to another location and we need to use their l
 
 
 Now we are going to Reverse Proxy:
-User request to reverse proxy server that redirect to different port/page/url. Suppose, you are searching in Amazon website for mobile. you will be redirect to mobile section doesn't matter that portion developed  by paython or javascript or php etc. you didnt know about it because it's redirect to it's targeted server. Reverse Proxy is not so many consuming server
+User request to reverse proxy server that redirect to different port/page/url. Suppose, you are searching in Amazon website for mobile. you will be redirect to mobile section doesn't matter that portion developed  by paython or javascript or php etc. you didnt know about it because it's redirect to it's targeted server. Reverse Proxy is not so many consuming server. it's job just to redirect to its destination server.
+
+NGINX is a populer Reverse proxy seerver.
 
 
 
