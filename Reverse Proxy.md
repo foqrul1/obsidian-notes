@@ -6,4 +6,4 @@ Forward Proxy
 
 
 
-Now we are going to Reverrse 
+Now we are going to Reverse Proxy
