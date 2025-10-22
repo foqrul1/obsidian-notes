@@ -8,7 +8,7 @@ Forward Proxy: If we want to data to another location and we need to use their l
 
 
 Now we are going to Reverse Proxy:
-
+User request to reverse proxy server that 
 
 
 
