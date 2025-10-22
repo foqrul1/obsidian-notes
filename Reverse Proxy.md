@@ -7,4 +7,9 @@ Forward Proxy: If we want to data to another location and we need to use their l
 
 
 
-Now we are going to Reverse Proxy
+Now we are going to Reverse Proxy:
+
+
+
+
+![[Pasted image 20251022170212.png]]
