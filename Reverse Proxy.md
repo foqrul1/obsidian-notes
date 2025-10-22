@@ -8,7 +8,7 @@ Forward Proxy: If we want to data to another location and we need to use their l
 
 
 Now we are going to Reverse Proxy:
-User request to reverse proxy server that redirect to different 
+User request to reverse proxy server that redirect to different port/page/url. Suppose, you are searching in Amazon website for mobile. you will be 
 
 
 
