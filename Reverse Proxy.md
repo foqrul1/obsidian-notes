@@ -1,4 +1,4 @@
-Forward Proxy
+Forward Proxy: If we want to data to another location and we need to use their 
 
 
 
