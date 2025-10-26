@@ -145,3 +145,8 @@ NACL- Network ACL. Subnet level firewall.  it's a stateless. you need to allow i
  
  
 Security Group is a stateful.
+
+
+### AWS  AMAZON S3
+
+ 
