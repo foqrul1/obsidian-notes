@@ -33,7 +33,7 @@ Imagine you visit a **hotel** 🏨.
 - The receptionist doesn’t let you walk into every room directly (servers).
  
 - Instead, the receptionist asks, “Which service do you need?” and then contacts the right person inside the hotel and gives you the result.
-- 
+
 The receptionist = reverse proxy  
 Hotel staff = backend servers  
 You = client/browser
