@@ -14,6 +14,30 @@ NGINX is a popular Reverse proxy server. user search into NGINX and NGINX decide
 Caddy is also a reverse proxy server. 
 
 
-
-
 ![[Pasted image 20251022170212.png]]
+
+
+A **reverse proxy** is like a **receptionist** for your web servers.
+
+When someone (a user) sends a request to your website, the reverse proxy **stands in front of your backend servers**, receives that request, and then **forwards it to the right server**.  
+Then it gets the server’s response and **sends it back to the user**.
+
+So, users never talk directly to your actual servers — they only talk to the reverse proxy.
+
+---
+
+### 💬 **Real-life Example (Easy Analogy)**
+
+Imagine you visit a **hotel** 🏨.
+
+- You (client) go to the **reception desk** (reverse proxy).
+    
+- The receptionist doesn’t let you walk into every room directly (servers).
+    
+- Instead, the receptionist asks, “Which service do you need?” and then contacts the right person inside the hotel and gives you the result.
+    
+
+The receptionist = reverse proxy  
+Hotel staff = backend servers  
+You = client/browser
+
