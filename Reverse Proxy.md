@@ -31,12 +31,11 @@ So, users never talk directly to your actual servers — they only talk to the r
 Imagine you visit a **hotel** 🏨.
 
 - You (client) go to the **reception desk** (reverse proxy).
-    
-- The receptionist doesn’t let you walk into every room directly (servers).
-    
-- Instead, the receptionist asks, “Which service do you need?” and then contacts the right person inside the hotel and gives you the result.
-    
 
+- The receptionist doesn’t let you walk into every room directly (servers).
+ 
+- Instead, the receptionist asks, “Which service do you need?” and then contacts the right person inside the hotel and gives you the result.
+- 
 The receptionist = reverse proxy  
 Hotel staff = backend servers  
 You = client/browser
