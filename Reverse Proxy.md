@@ -38,3 +38,23 @@ The receptionist = reverse proxy
 Hotel staff = backend servers  
 You = client/browser
 
+### **Technical Example**
+
+Let’s say you have 3 web servers:
+
+Server 1 → login.example.com
+Server 2 → shop.example.com
+Server 3 → blog.example.com
+
+You can set up a reverse proxy (for example, Nginx or Apache) on one machine with public access:
+
+User → Reverse Proxy (Nginx) → Internal Servers
+
+When users visit:
+
+example.com/login → proxy sends to Server 1
+
+example.com/shop → proxy sends to Server 2
+
+example.com/blog → proxy sends to Server 3
+
