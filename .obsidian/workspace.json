@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reverse Proxy.md",
+                "file": "SSL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reverse Proxy"
+              "title": "SSL"
             }
           },
           {
@@ -197,8 +197,8 @@
   },
   "active": "16caeaed7a7fac68",
   "lastOpenFiles": [
-    "SSL.md",
     "Reverse Proxy.md",
+    "SSL.md",
     "Pasted image 20251022170212.png",
     "Pasted image 20251022142810.png",
     "Pasted image 20251022142802.png",

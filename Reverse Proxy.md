@@ -39,7 +39,7 @@ Hotel staff = backend servers
 You = client/browser
 
 ### **Technical Example**
-
+ 
 Let’s say you have 3 web servers:
 
 Server 1 → login.example.com
