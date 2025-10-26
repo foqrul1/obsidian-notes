@@ -24,8 +24,6 @@ Then it gets the server’s response and **sends it back to the user**.
 
 So, users never talk directly to your actual servers — they only talk to the reverse proxy.
 
----
-
 ### 💬 **Real-life Example (Easy Analogy)**
 
 Imagine you visit a **hotel** 🏨.
