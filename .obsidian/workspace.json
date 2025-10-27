@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learn Topic.md",
+                "file": "AWS- Cloud Computing/AWS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learn Topic"
+              "title": "AWS"
             }
           },
           {
@@ -211,8 +211,8 @@
   },
   "active": "12af69c55979e9e3",
   "lastOpenFiles": [
-    "Learning Term.md",
     "Learn Topic.md",
+    "Learning Term.md",
     "AWS- Cloud Computing/AWS.md",
     "proxy settings.md",
     "README.md",

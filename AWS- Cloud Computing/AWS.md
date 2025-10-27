@@ -150,6 +150,8 @@ Security Group is a stateful.
 ### AWS  AMAZON S3
 for Cloud Storage and S3 Glacier for Archive. AWS S3 data encryption supported. 
 
+-ELB -> 
+
 
 
  
