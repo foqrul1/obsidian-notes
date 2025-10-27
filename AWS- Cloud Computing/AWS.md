@@ -156,7 +156,10 @@ for Cloud Storage and S3 Glacier for Archive. AWS S3 data encryption supported.
 		
 	ALB >> TG(Target Group) >>
 						WEBTG80   >> Instance1:80
-								   >>
+								   >> Instance2:80
+								   
+						WEBTG81	   >> Instance3:81
+								    >> Instance3:81
 
 
 
