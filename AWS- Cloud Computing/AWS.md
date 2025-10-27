@@ -151,7 +151,8 @@ Security Group is a stateful.
 for Cloud Storage and S3 Glacier for Archive. AWS S3 data encryption supported. 
 
 -ELB -> Elastic Load Balancer
-		-ALB -> Application Load Balancer : H
+		-ALB -> Application Load Balancer : If we want to load balancing with HTTP and HTTPs protocol.
+		
 
 
 
