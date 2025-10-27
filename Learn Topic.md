@@ -1,4 +1,7 @@
 
+DHCP
+SSL
+
 Github
 GitLab
 Notion
@@ -12,3 +15,7 @@ Circle CL
 Jenkins
 Kubarnetes
 VS Code
+NIST CSF 2.0
+TCITSS ISO 27001
+BNM
+
