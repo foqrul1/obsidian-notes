@@ -1,7 +1,9 @@
 
 DHCP
 SSL
-
+SSH
+OPENSSH
+Firewall
 Github
 GitLab
 Notion
