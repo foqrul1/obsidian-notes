@@ -154,7 +154,9 @@ for Cloud Storage and S3 Glacier for Archive. AWS S3 data encryption supported.
 		-ALB -> Application Load Balancer : If we want to load balancing with HTTP and HTTPs protocol.
 		->NLB -> Network Load balancer: If we want to Load balancing with TCP and UDP we can use NLB.
 		
-		
+	ALB >> TG(Target Group) >>
+						WEBTG80   >> Instance1:80
+								   >>
 
 
 
