@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learn Topic.md",
+                "file": "AWS- Cloud Computing/AWS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learn Topic"
+              "title": "AWS"
             }
           },
           {
@@ -211,14 +211,15 @@
   },
   "active": "12af69c55979e9e3",
   "lastOpenFiles": [
-    "AWS- Cloud Computing/AWS.md",
+    "proxy settings.md",
+    "README.md",
     "Learn Topic.md",
+    "AWS- Cloud Computing/AWS.md",
     "SSL.md",
     "Reverse Proxy.md",
     "Pasted image 20251022170212.png",
     "Pasted image 20251022142810.png",
     "Pasted image 20251022142802.png",
-    "proxy settings.md",
     "Untitled 2.base",
     "Untitled.base",
     "Untitled 1.base",
@@ -230,7 +231,6 @@
     "Zira Related/Slack.md",
     "create a link.md",
     "Learning Term.md",
-    "README.md",
     "AWS- Cloud Computing",
     "Zira Related/Broadcom License.md",
     "n8n.md",
