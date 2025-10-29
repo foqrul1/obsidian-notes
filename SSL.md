@@ -39,3 +39,8 @@ Both sender and receiver use the **same secret key**.
 
 You and your friend both know a secret key `abc123`.  
 You type:
+
+Plain text: HELLO
+Encrypted with key 'abc123' → 9FD83A@$
+
+
