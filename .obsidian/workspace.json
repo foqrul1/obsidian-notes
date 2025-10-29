@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS- Cloud Computing/AWS.md",
+                "file": "SSL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS"
+              "title": "SSL"
             }
           },
           {
@@ -211,9 +211,9 @@
   },
   "active": "12af69c55979e9e3",
   "lastOpenFiles": [
+    "AWS- Cloud Computing/AWS.md",
     "Learn Topic.md",
     "Learning Term.md",
-    "AWS- Cloud Computing/AWS.md",
     "proxy settings.md",
     "README.md",
     "SSL.md",
