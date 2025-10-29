@@ -162,4 +162,4 @@ When you visit a secure website (🔒 HTTPS):
 
 for secure our connection using both Symmetric and Asymmetric encryption, we can use SSL Certification. Because using Symmetric encryption both client and user use same key so that, it's a high chance to leak data or change Data by MMA(Man in the middle attacker) person. Moreover, if we use Asymmetric encryption the user don't know the sender(client data) details. so there is a high chance to MMA change encrypted data. SSL certificates comes to solve the issue. SSL certificate(lets say, name e.g lets encrypt) take the data to encrypt. "Lets Encrypt" encrypt the data and also mark client domain details also. and send it to client to send it to user. Client send it to user and user also send it to "Lets Encrypt" to check the data is secure and source is correct or not. "Lets Encrypt" check its and give confirmation. if data not matched SSL certificate says "Your connection is not secure. "
 
-This is how SSL Certifi
+This is how SSL Certificate works. So that MMA have less chance to leak the data or change the data.
