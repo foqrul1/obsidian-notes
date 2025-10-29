@@ -160,4 +160,4 @@ When you visit a secure website (🔒 HTTPS):
 
 ### Now We Will Learn SSL CERTIFICATE
 
-for secure our connection using
+for secure our connection using both Symmetric and Asymmetric connection, we can use SSL Certification. Because using Sy
