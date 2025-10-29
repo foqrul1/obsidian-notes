@@ -160,4 +160,4 @@ When you visit a secure website (🔒 HTTPS):
 
 ### Now We Will Learn SSL CERTIFICATE
 
-for secure our connection using both Symmetric and Asymmetric encryption, we can use SSL Certification. Because using Symmetric encryption both client and user use same key so that, it's a high chance to leak data or change Data by MMA(Man in the middle attacker) person. Moreover, if we use Asymmetric encryption the user dont know the sender(client data)
+for secure our connection using both Symmetric and Asymmetric encryption, we can use SSL Certification. Because using Symmetric encryption both client and user use same key so that, it's a high chance to leak data or change Data by MMA(Man in the middle attacker) person. Moreover, if we use Asymmetric encryption the user dont know the sender(client data) details. so there is a high chance to 
