@@ -160,4 +160,4 @@ When you visit a secure website (🔒 HTTPS):
 
 ### Now We Will Learn SSL CERTIFICATE
 
-for secure our connection using both Symmetric and Asymmetric connection, we can use SSL Certification. Because using Sy
+for secure our connection using both Symmetric and Asymmetric connection, we can use SSL Certification. Because using Symmetric connection both client and user use same key so that, it's a high chance to leak data or change Data by MMA(Man in the middle attacker)
