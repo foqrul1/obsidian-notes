@@ -160,6 +160,23 @@ When you visit a secure website (🔒 HTTPS):
 
 ### Now We Will Learn SSL CERTIFICATE
 
-For secure our connection using both Symmetric and Asymmetric encryption, we can use SSL Certification. Because using Symmetric encryption both client and user use same key so that, it's a high chance to leak data or change Data by MMA(Man in the middle attacker) person. Moreover, if we use Asymmetric encryption the user don't know the sender(client data) details. so there is a high chance to MMA change encrypted data. SSL certificates comes to solve the issue. SSL certificate(lets say, name e.g lets encrypt) take the data to encrypt. "Lets Encrypt" encrypt the data and also mark client domain details also. and send it to client to send it to user. Client send it to user and user also send it to "Lets Encrypt" to check the data is secure and source is correct or not. "Lets Encrypt" check its and give confirmation. if data not matched SSL certificate says "Your connection is not secure. "
+To make our internet connection secure, we use **SSL Certificates**, which combine **symmetric** and **asymmetric encryption**.
 
-This is how SSL Certificate works. So that MMA have less chance to leak the data or change the data.
+In **symmetric encryption**, both client and server use the same secret key — this makes it fast but also risky if the key is stolen (for example, by a **man-in-the-middle attacker**).
+
+In **asymmetric encryption**, there are two keys — a **public key** and a **private key**. The public key is shared with everyone, but only the private key owner can decrypt messages. This method is more secure but slower.
+
+**SSL Certificates** solve these issues by using **both methods together**:
+
+- When your browser connects to a website, the website sends its **SSL Certificate**, which contains its **public key** and **identity information** (like domain name and organization).
+    
+- This certificate is **issued by a trusted authority** (for example, **Let’s Encrypt**) that verifies the website’s identity.
+    
+- Your browser checks the certificate — if it’s valid, your browser and the server use **asymmetric encryption** to exchange a secret key securely.
+- Then they switch to **symmetric encryption** to exchange data quickly and safely.
+
+
+If the SSL Certificate is invalid or doesn’t match the website, the browser warns:  
+**“Your connection is not secure.”**
+
+This process protects users from **man-in-the-middle attacks** and ensures the data can’t be viewed or changed by anyone else.
