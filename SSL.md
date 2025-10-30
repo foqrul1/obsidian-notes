@@ -111,25 +111,20 @@ Even if hackers see the message, they can’t read it without your private key.
 ### ⚙️ Common Algorithms:
 
 - RSA
-    
+
 - ECC (Elliptic Curve Cryptography)
-    
 - DSA
-    
 
 ### ✅ Pros:
 
 - No need to share the private key.
-    
 - Very secure for communication and authentication (e.g., SSL, SSH, digital signatures).
-    
 
 ### ❌ Cons:
 
 - Slower than symmetric encryption.
-    
 - Not suitable for encrypting huge files directly.
-    
+
 
 ---
 
@@ -169,14 +164,18 @@ In **asymmetric encryption**, there are two keys — a **public key** and a **pr
 **SSL Certificates** solve these issues by using **both methods together**:
 
 - When your browser connects to a website, the website sends its **SSL Certificate**, which contains its **public key** and **identity information** (like domain name and organization).
-    
 - This certificate is **issued by a trusted authority** (for example, **Let’s Encrypt**) that verifies the website’s identity.
-    
 - Your browser checks the certificate — if it’s valid, your browser and the server use **asymmetric encryption** to exchange a secret key securely.
 - Then they switch to **symmetric encryption** to exchange data quickly and safely.
-
 
 If the SSL Certificate is invalid or doesn’t match the website, the browser warns:  
 **“Your connection is not secure.”**
 
 This process protects users from **man-in-the-middle attacks** and ensures the data can’t be viewed or changed by anyone else.
+
+****Key Idea Simplified
+
+- **Let’s Encrypt**: Only issues (creates) SSL certificates.
+- **SSL Certificate**: Proves the website’s identity and allows secure key exchange.
+- **Encryption (done by browser + server)**: Protects the data during communication.**
+
