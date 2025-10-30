@@ -29,11 +29,8 @@ Both sender and receiver use the **same secret key**.
 📦 Example:
 
 - You lock a box with a key 🔑.
-    
 - You send the box to your friend.
-    
 - Your friend **must have the same key** to open it.
-    
 
 ### 🧮 Example in Computers:
 
@@ -48,23 +45,17 @@ Your friend uses **same key 'abc123'** to decrypt it back to “HELLO”.
 ### ⚙️ Common Algorithms:
 
 - AES (Advanced Encryption Standard)
-    
 - DES (Data Encryption Standard)
-    
 - Blowfish
-    
 
 ### ✅ Pros:
 
 - Fast and simple
-    
 - Great for large data (e.g., files, backups)
-    
 
 ### ❌ Cons:
 
 - You must **safely share the key** first — if someone steals it, they can decrypt everything.
-    
 
 ---
 
@@ -75,18 +66,14 @@ Your friend uses **same key 'abc123'** to decrypt it back to “HELLO”.
 There are **two keys**:
 
 - **Public key** → used to **encrypt**
-    
 - **Private key** → used to **decrypt**
-    
 
 They are mathematically linked, but you can’t guess one from the other.
 
 📦 Example:
 
 - You have a **mailbox** with a public slot to drop letters (public key) and a private key to open it.
-    
 - Anyone can send you a letter, but only you can open the box.
-    
 
 ---
 
@@ -95,23 +82,18 @@ They are mathematically linked, but you can’t guess one from the other.
 You have:
 
 - **Public key** → share with everyone
-    
 - **Private key** → keep secret
-    
 
 When your friend wants to send you a message:
 
 1. They **encrypt** it using **your public key**.
-    
 2. Only **your private key** can **decrypt** it.
-    
 
 Even if hackers see the message, they can’t read it without your private key.
 
 ### ⚙️ Common Algorithms:
 
 - RSA
-
 - ECC (Elliptic Curve Cryptography)
 - DSA
 
