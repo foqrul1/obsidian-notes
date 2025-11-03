@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WI-FI Password security.md",
+                "file": "WI-FI Password Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WI-FI Password security"
+              "title": "WI-FI Password Security"
             }
           },
           {
@@ -226,7 +226,7 @@
   "active": "7e9c38f0faa1ce05",
   "lastOpenFiles": [
     "Learn Topic.md",
-    "WI-FI Password security.md",
+    "WI-FI Password Security.md",
     "SSL.md",
     "AWS- Cloud Computing/AWS.md",
     "Learning Term.md",
