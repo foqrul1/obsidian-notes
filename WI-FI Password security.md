@@ -3,9 +3,10 @@ Most of the wifi connection are secure. there are several protocol to use wifi t
 ### WEP (Wired Equivalent Privacy)
 very first wireless security protocol. Later found a lot of vulnerability and also found 40 bit encryption key is not enough secure. and it's easily hackable.
 ### WPA (wi-fi protected access)
-Stronger encryption. Uses TKiP(Temporary key integrity protocol). but later TKIP also find lots of vulneribility.
+Stronger encryption. Uses TKiP(Temporary key integrity protocol). but later TKIP also find lots of vulnerability.
 
-WPA2 (wi-fi )
+### WPA2 (wi-fi protected access)
+provides even stronger security than WPA. Uses AES
 
 
 
