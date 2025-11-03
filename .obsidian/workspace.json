@@ -50,6 +50,20 @@
             }
           },
           {
+            "id": "7e9c38f0faa1ce05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WI-FI Password security.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WI-FI Password security"
+            }
+          },
+          {
             "id": "c9cff32db668f007",
             "type": "leaf",
             "state": {
@@ -60,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -209,11 +223,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "12af69c55979e9e3",
+  "active": "7e9c38f0faa1ce05",
   "lastOpenFiles": [
+    "Learn Topic.md",
+    "WI-FI Password security.md",
     "SSL.md",
     "AWS- Cloud Computing/AWS.md",
-    "Learn Topic.md",
     "Learning Term.md",
     "proxy settings.md",
     "README.md",
