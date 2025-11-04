@@ -9,7 +9,9 @@ Stronger encryption. Uses TKiP(Temporary key integrity protocol). but later TKIP
 provides even stronger security than WPA. Uses AES(advanced encryption standard). Adopted by the U.S. govt.
 
 ### WPA3
-The next generation of wireless security. introduced in 2018. received increased security protection from password gue
+The next generation of wireless security. introduced in 2018. received increased security protection from password guessing attempts.
+
+
 
 
 
