@@ -12,6 +12,8 @@ provides even stronger security than WPA. Uses AES(advanced encryption standard)
 The next generation of wireless security. introduced in 2018. received increased security protection from password guessing attempts.
 
 
+WPS wi-fi pro
+
 
 
 
