@@ -8,6 +8,9 @@ Stronger encryption. Uses TKiP(Temporary key integrity protocol). but later TKIP
 ### WPA2 (wi-fi protected access)
 provides even stronger security than WPA. Uses AES(advanced encryption standard). Adopted by the U.S. govt.
 
+### WPA3
+The next generation of wireless security
+
 
 
 
