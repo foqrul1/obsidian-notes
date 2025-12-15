@@ -5,4 +5,6 @@ go to esxi -> Updates-> Baselines-> search expected patch (2025)
 -> click pre-check Remediation ( if no error found) then
 -> select esxi - patch -2025 -> Click Remediate(also check any issue have found or not)
 wait some time. after successfully patched check the patch version again.
--> 
+-> in that time do a ping to that esxi(ip).
+
+
