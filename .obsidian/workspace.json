@@ -163,12 +163,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "bank.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "bank"
             }
           }
         ],
@@ -321,10 +321,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24df1969b71c5bf5",
+  "active": "26ae178be1994ecd",
   "lastOpenFiles": [
     "Learning Term.md",
-    "Untitled 1.md",
+    "bank.md",
     "Welcome.md",
     "Untitled.md",
     "VMware.md",
