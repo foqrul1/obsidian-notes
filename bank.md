@@ -85,3 +85,5 @@ Board theke je question gulo ask korece:
 * Table & View er moddhe difference 
 * Gemini, ChatGPT, deepseek - konta ke develop korce, Gemini kon model use korce, kivabe kaj kore
 
+
+
