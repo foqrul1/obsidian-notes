@@ -163,12 +163,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "create a link.md",
+                "file": "ESXI Patching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "create a link"
+              "title": "ESXI Patching"
             }
           }
         ],
@@ -323,6 +323,7 @@
   },
   "active": "24df1969b71c5bf5",
   "lastOpenFiles": [
+    "create a link.md",
     "bank.md",
     "Learning Term.md",
     "Welcome.md",
@@ -349,7 +350,6 @@
     "RHCSA/Container.md",
     "RHCSA/Exam Question.md",
     "Zira Related/Slack.md",
-    "create a link.md",
     "AWS- Cloud Computing",
     "Zira Related/Broadcom License.md",
     "n8n.md",
