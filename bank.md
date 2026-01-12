@@ -70,3 +70,18 @@ ADA (Base year :2022) [Date: 09-01-2026]
 11. Software testing er level ki? define Unit,  system,  integration, acceptance testing
 12. what is programming? 4 example. difference between structural programming language and oop language
 13. DNS ki? DNS procedure!
+
+
+Viva experience overall valo chilo. 
+Ami Group 4 e chilam, board e total 4 jon member chilen. Viva duration chilo approx 3–4 minute.
+Board theke je question gulo ask korece:
+* kothay porashona korechi
+* Kon kon subject chilo, programming language ki chilo
+* Python e anonymous function kivabe declare kore
+* kon kon technology niye kaj korchi, project gulo niye bolsi
+* Sonali, Janata, BDBL bank er CBS software ki ki use hoy
+* Cloud computing types
+* SQL er SELECT query er kaj
+* Table & View er moddhe difference 
+* Gemini, ChatGPT, deepseek - konta ke develop korce, Gemini kon model use korce, kivabe kaj kore
+
