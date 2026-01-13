@@ -163,12 +163,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ESXI Patching.md",
+                "file": "proxy settings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESXI Patching"
+              "title": "proxy settings"
             }
           }
         ],
@@ -324,18 +324,18 @@
   "active": "24df1969b71c5bf5",
   "lastOpenFiles": [
     "create a link.md",
+    "ESXI Patching.md",
+    "Reverse Proxy.md",
     "bank.md",
     "Learning Term.md",
     "Welcome.md",
     "Untitled.md",
     "VMware.md",
     "SSL.md",
-    "Reverse Proxy.md",
     "README.md",
     "Pasted image 20251022170212.png",
     "Pasted image 20251022142810.png",
     "Pasted image 20251022142802.png",
-    "ESXI Patching.md",
     "Kubarnetes/Networking.md",
     "WI-FI Password Security.md",
     "OSI and TCP IP Models.md",
