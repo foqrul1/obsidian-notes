@@ -163,12 +163,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "proxy settings.md",
+                "file": "SSL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "proxy settings"
+              "title": "SSL"
             }
           }
         ],
@@ -323,25 +323,25 @@
   },
   "active": "24df1969b71c5bf5",
   "lastOpenFiles": [
+    "Reverse Proxy.md",
+    "README.md",
+    "OSI and TCP IP Models.md",
+    "proxy settings.md",
     "create a link.md",
     "ESXI Patching.md",
-    "Reverse Proxy.md",
     "bank.md",
     "Learning Term.md",
     "Welcome.md",
     "Untitled.md",
     "VMware.md",
     "SSL.md",
-    "README.md",
     "Pasted image 20251022170212.png",
     "Pasted image 20251022142810.png",
     "Pasted image 20251022142802.png",
     "Kubarnetes/Networking.md",
     "WI-FI Password Security.md",
-    "OSI and TCP IP Models.md",
     "Learn Topic.md",
     "AWS- Cloud Computing/AWS.md",
-    "proxy settings.md",
     "Untitled 2.base",
     "Untitled.base",
     "Untitled 1.base",
