@@ -375,9 +375,13 @@ So if your computer sends a message to `192.168.1.255`, **all devices** on `192.
 # OSI Model (Open System Interconnection):
 
 1. Physical Layer
+	->Data Sends (0s & 1s)
+		Cable, Wi
 2. Data Link Layer
+	->
 3. Transport Layer
 4. Network Layer
 5. Session Layer
 6. Presentation Layer
-7. Applivcation
+7. Application Layer
+
