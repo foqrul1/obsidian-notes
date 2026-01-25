@@ -381,7 +381,7 @@ So if your computer sends a message to `192.168.1.255`, **all devices** on `192.
 	-> Data Transfer into local Network
 		MAC address, Switch
 3. Network Layer
-	-> Smooth Transfer
+	-> Finds path to destination
 		Ip Address, Router
 4. Transport Layer
 	-> 
