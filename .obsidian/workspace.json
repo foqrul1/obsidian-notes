@@ -177,12 +177,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learn Topic.md",
+                "file": "Kubarnetes/Networking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learn Topic"
+              "title": "Networking"
             }
           }
         ],
@@ -337,6 +337,8 @@
   },
   "active": "6cc261d7f5d42539",
   "lastOpenFiles": [
+    "Kubarnetes/what is Kubarnetes.md",
+    "Learn Topic.md",
     "BB Exam.md",
     "SSL.md",
     "Reverse Proxy.md",
@@ -355,13 +357,11 @@
     "Pasted image 20251022142802.png",
     "Kubarnetes/Networking.md",
     "WI-FI Password Security.md",
-    "Learn Topic.md",
     "AWS- Cloud Computing/AWS.md",
     "Untitled 2.base",
     "Untitled.base",
     "Untitled 1.base",
     "Jetpatch/windows.md",
-    "Kubarnetes/what is Kubarnetes.md",
     "RHCSA/Container.md",
     "RHCSA/Exam Question.md",
     "Zira Related/Slack.md",
