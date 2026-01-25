@@ -389,6 +389,8 @@ So if your computer sends a message to `192.168.1.255`, **all devices** on `192.
 5. Session Layer
 	-> Create Session, Alive Session
 6. Presentation Layer
-	-> How to 
+	-> How to send data 
+		ZIP, SSL
 7. Application Layer
+	-> What we see in web. Email, web site page
 
