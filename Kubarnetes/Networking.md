@@ -376,7 +376,7 @@ So if your computer sends a message to `192.168.1.255`, **all devices** on `192.
 
 1. Physical Layer
 	->Data Sends (0s & 1s)
-		Cable, Wi
+		Cable, WiFi, Signal
 2. Data Link Layer
 	->
 3. Transport Layer
