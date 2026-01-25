@@ -381,9 +381,13 @@ So if your computer sends a message to `192.168.1.255`, **all devices** on `192.
 	-> Data Transfer into local Network
 		MAC address, Switch
 3. Network Layer
-	-> 
+	-> Smooth Transfer
+		Ip Address, Router
 4. Transport Layer
+	-> 
+		TCP, UDP
 5. Session Layer
+	-> 
 6. Presentation Layer
 7. Application Layer
 
