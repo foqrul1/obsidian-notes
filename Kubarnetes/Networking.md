@@ -370,3 +370,6 @@ So if your computer sends a message to `192.168.1.255`, **all devices** on `192.
 |Unicast|Normal IPs (like `192.168.x.x`)|
 |Broadcast|Last IP of subnet (like `192.168.1.255`)|
 |Multicast|`224.0.0.0` – `239.255.255.255`|
+
+
+OSI Model (Open System Interconnection):
