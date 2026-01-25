@@ -374,4 +374,5 @@ So if your computer sends a message to `192.168.1.255`, **all devices** on `192.
 
 # OSI Model (Open System Interconnection):
 
-
+1. Physical Layer
+2. 
