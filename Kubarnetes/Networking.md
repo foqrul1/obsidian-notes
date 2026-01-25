@@ -376,10 +376,12 @@ So if your computer sends a message to `192.168.1.255`, **all devices** on `192.
 
 1. Physical Layer
 	->Data Sends (0s & 1s)
-		Cable, WiFi, Signal
+		Cable, WIFI, Signal
 2. Data Link Layer
-	->
+	-> Data Transfer into local Network
+		MAC address, Switch
 3. Transport Layer
+	-
 4. Network Layer
 5. Session Layer
 6. Presentation Layer
