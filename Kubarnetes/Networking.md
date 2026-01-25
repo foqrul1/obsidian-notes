@@ -387,7 +387,8 @@ So if your computer sends a message to `192.168.1.255`, **all devices** on `192.
 	-> 
 		TCP, UDP
 5. Session Layer
-	-> 
+	-> Create Session, Alive Session
 6. Presentation Layer
+	-> How to 
 7. Application Layer
 
