@@ -379,4 +379,5 @@ So if your computer sends a message to `192.168.1.255`, **all devices** on `192.
 3. Transport Layer
 4. Network Layer
 5. Session Layer
-6. Presenr
+6. Presentation Layer
+7. Applivcation
