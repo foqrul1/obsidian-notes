@@ -372,10 +372,10 @@ So if your computer sends a message to `192.168.1.255`, **all devices** on `192.
 |Multicast|`224.0.0.0` – `239.255.255.255`|
 
 
-# OSI Model (Open System Interconnection):
+# OSI Model (Open System Interconnection): for Understanding and troubleshooting
 
 1. Physical Layer
-	->Data Sends (0s & 1s)
+	->Data Sends. Moves Bit (0s & 1s)
 		Cable, WIFI, Signal
 2. Data Link Layer
 	-> Data Transfer into local Network
