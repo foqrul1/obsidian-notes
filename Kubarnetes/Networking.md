@@ -376,4 +376,7 @@ So if your computer sends a message to `192.168.1.255`, **all devices** on `192.
 
 1. Physical Layer
 2. Data Link Layer
-3. Transport Lay
+3. Transport Layer
+4. Network Layer
+5. Session Layer
+6. Presenr
