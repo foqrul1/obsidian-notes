@@ -205,12 +205,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reverse Proxy.md",
+                "file": "n8n.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reverse Proxy"
+              "title": "n8n"
             }
           }
         ],
@@ -365,6 +365,7 @@
   },
   "active": "761675af52804b51",
   "lastOpenFiles": [
+    "Reverse Proxy.md",
     "question.md",
     "README.md",
     "VCP Exam.md",
@@ -374,7 +375,6 @@
     "Learn Topic.md",
     "BB Exam.md",
     "SSL.md",
-    "Reverse Proxy.md",
     "OSI and TCP IP Models.md",
     "proxy settings.md",
     "create a link.md",
