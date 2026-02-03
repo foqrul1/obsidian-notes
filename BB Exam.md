@@ -84,3 +84,14 @@ ADA (Base year :2022) [Date: 09-01-2026]
 12. what is programming? 4 example. difference between structural programming language and oop language
 13. DNS ki? DNS procedure!
 
+14. কোথা থেকে পড়াশোনা করেছেন?এখন কি করছেন?
+15. এটাই কি প্রথম ভাইভা? আপনার first choice কি ছিল?
+16. সোনালী ব্যাংক এর শাখা কতটি?4.  সোনালী ব্যাংক কি এমন কোনো বিশেষ কাজ করে যা অন্য ব্যাংক করে না?
+17.  সোনালী ব্যাংক এর ডিজিটাল সেবার নাম বলুন।
+18.  CBS? সোনালী ব্যাংক এর CBS এর নাম?
+19.  Data vs Information? Data normalization? 
+20.  2 টা টেবিলের ডাটা  connect করতে কোন key use হয়?
+9  কয়েকটা ডাটাবেইজ এর নাম বলুন?SQL full form?
+21.  CISCO, CNN সম্পর্কে জানেন?
+22.  NPSB? Janata bank এর NPSB আছে?নাম বলুন।শেষ
+
