@@ -205,12 +205,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BB Exam.md",
+                "file": "create a link.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BB Exam"
+              "title": "create a link"
             }
           }
         ],
@@ -365,6 +365,7 @@
   },
   "active": "761675af52804b51",
   "lastOpenFiles": [
+    "BB Exam.md",
     "question.md",
     "n8n.md",
     "Reverse Proxy.md",
@@ -374,7 +375,6 @@
     "Kubarnetes/Networking.md",
     "Kubarnetes/what is Kubarnetes.md",
     "Learn Topic.md",
-    "BB Exam.md",
     "SSL.md",
     "OSI and TCP IP Models.md",
     "proxy settings.md",
