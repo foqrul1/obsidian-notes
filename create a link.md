@@ -1,3 +1,3 @@
 Vmware -> check hypervisor version -> vsphere availibility -> edit
 
-updates -> baseline -> attach esxi (file) -> 
+updates -> baseline -> attach ->  esxi (file) -> remidiate
