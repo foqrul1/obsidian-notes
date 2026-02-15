@@ -1,0 +1,1 @@
+Vmware -> check hypervisor version -> vsphere availibility
