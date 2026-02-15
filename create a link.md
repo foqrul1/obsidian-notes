@@ -1,1 +1,3 @@
-Vmware -> check hypervisor version -> vsphere availibility
+Vmware -> check hypervisor version -> vsphere availibility -> edit
+
+updates -> baseline -> attach esxi (file) -> 
