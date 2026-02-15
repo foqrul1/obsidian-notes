@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "create a link.md",
+                "file": "ESXI Upgrade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "create a link"
+              "title": "ESXI Upgrade"
             }
           }
         ],
@@ -198,7 +198,7 @@
     "WI-FI Password Security.md",
     "Learn Topic.md",
     "AWS- Cloud Computing/AWS.md",
-    "create a link.md",
+    "ESXI Upgrade.md",
     "BB Exam.md",
     "question.md",
     "n8n.md",
