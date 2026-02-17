@@ -1,4 +1,5 @@
 
+
 vim /etc/environment
 
 export http_proxy="http://192.168.195.64:443"
