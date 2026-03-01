@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "proxy settings.md",
+                "file": "Kubarnetes/what is Kubarnetes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "proxy settings"
+              "title": "what is Kubarnetes"
             }
           }
         ],
@@ -187,26 +187,26 @@
   },
   "active": "761675af52804b51",
   "lastOpenFiles": [
+    "question.md",
+    "Learn Topic.md",
+    "ESXI Patching.md",
+    "proxy settings.md",
     "ESXI Upgrade.md",
     "VCP Exam.md",
     "Kubarnetes/Networking.md",
     "SSL.md",
     "Learning Term.md",
-    "ESXI Patching.md",
     "VMware.md",
     "Untitled.md",
     "OSI and TCP IP Models.md",
     "WI-FI Password Security.md",
-    "Learn Topic.md",
     "AWS- Cloud Computing/AWS.md",
     "BB Exam.md",
-    "question.md",
     "n8n.md",
     "Reverse Proxy.md",
     "README.md",
     "Untitled",
     "Kubarnetes/what is Kubarnetes.md",
-    "proxy settings.md",
     "bank.md",
     "Welcome.md",
     "Pasted image 20251022170212.png",
