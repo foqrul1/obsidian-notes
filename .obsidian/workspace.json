@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NFS share.md",
+                "file": "proxy settings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NFS share"
+              "title": "proxy settings"
             }
           }
         ],
@@ -201,8 +201,8 @@
   },
   "active": "246dea4de65d7d1a",
   "lastOpenFiles": [
-    "proxy settings.md",
     "NFS share.md",
+    "proxy settings.md",
     "Kubarnetes/what is Kubarnetes.md",
     "question.md",
     "Learn Topic.md",
