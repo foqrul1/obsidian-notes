@@ -1,3 +1,10 @@
+
+- Apache: 2.4.62
+    
+- PHP: 8.3.2
+    
+- MySQL: 8.4
+
 dnf install httpd
    99  httpd -v
   100  systemctl status httpd.service 

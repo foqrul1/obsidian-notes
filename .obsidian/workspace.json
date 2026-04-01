@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "ESXI Upgrade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "ESXI Upgrade"
             }
           }
         ],
@@ -215,8 +215,9 @@
   },
   "active": "301c3eaf9b28dab3",
   "lastOpenFiles": [
+    "bank.md",
+    "Apache, PHP, Mysql in Rhel9.md",
     "proxy settings.md",
-    "Untitled 1.md",
     "NFS share.md",
     "Kubarnetes/what is Kubarnetes.md",
     "question.md",
@@ -237,7 +238,6 @@
     "Reverse Proxy.md",
     "README.md",
     "Untitled",
-    "bank.md",
     "Welcome.md",
     "Pasted image 20251022170212.png",
     "Pasted image 20251022142810.png",
