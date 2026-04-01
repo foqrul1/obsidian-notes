@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ESXI Upgrade.md",
+                "file": "ESXI Patching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESXI Upgrade"
+              "title": "ESXI Patching"
             }
           }
         ],
@@ -215,6 +215,7 @@
   },
   "active": "301c3eaf9b28dab3",
   "lastOpenFiles": [
+    "ESXI Upgrade.md",
     "bank.md",
     "Apache, PHP, Mysql in Rhel9.md",
     "proxy settings.md",
@@ -223,7 +224,6 @@
     "question.md",
     "Learn Topic.md",
     "ESXI Patching.md",
-    "ESXI Upgrade.md",
     "VCP Exam.md",
     "Kubarnetes/Networking.md",
     "SSL.md",
