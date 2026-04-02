@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ESXI Patching.md",
+                "file": "question.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESXI Patching"
+              "title": "question"
             }
           }
         ],
@@ -215,6 +215,15 @@
   },
   "active": "301c3eaf9b28dab3",
   "lastOpenFiles": [
+    "README.md",
+    "Reverse Proxy.md",
+    "SSL.md",
+    "Untitled.md",
+    "VCP Exam.md",
+    "VMware.md",
+    "Welcome.md",
+    "WI-FI Password Security.md",
+    "ESXI Patching.md",
     "ESXI Upgrade.md",
     "bank.md",
     "Apache, PHP, Mysql in Rhel9.md",
@@ -223,22 +232,13 @@
     "Kubarnetes/what is Kubarnetes.md",
     "question.md",
     "Learn Topic.md",
-    "ESXI Patching.md",
-    "VCP Exam.md",
     "Kubarnetes/Networking.md",
-    "SSL.md",
     "Learning Term.md",
-    "VMware.md",
-    "Untitled.md",
     "OSI and TCP IP Models.md",
-    "WI-FI Password Security.md",
     "AWS- Cloud Computing/AWS.md",
     "BB Exam.md",
     "n8n.md",
-    "Reverse Proxy.md",
-    "README.md",
     "Untitled",
-    "Welcome.md",
     "Pasted image 20251022170212.png",
     "Pasted image 20251022142810.png",
     "Pasted image 20251022142802.png",
