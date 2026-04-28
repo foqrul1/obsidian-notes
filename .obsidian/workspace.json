@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,7 +227,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ac5238fe3283776",
+  "active": "761675af52804b51",
   "lastOpenFiles": [
     "Reverse Proxy.md",
     "Jetpatch/windows.md",

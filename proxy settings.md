@@ -17,4 +17,6 @@ webex.it@ificbankbd.com
 Zxcv@123
 
 
+[Samakal](https://member.newsshell.com/new_newsshell/pages/advertise_details/2001640)| [Bangladesh Today](https://member.newsshell.com/new_newsshell/pages/advertise_details/2001629)
+
 
