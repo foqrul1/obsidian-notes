@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "n8n.md",
+                "file": "Apache, PHP, Mysql in Rhel9.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "n8n"
+              "title": "Apache, PHP, Mysql in Rhel9"
             }
           },
           {
@@ -229,6 +229,7 @@
   },
   "active": "761675af52804b51",
   "lastOpenFiles": [
+    "n8n.md",
     "proxy settings.md",
     "Reverse Proxy.md",
     "Jetpatch/windows.md",
@@ -245,7 +246,6 @@
     "ESXI Upgrade.md",
     "Learn Topic.md",
     "Learning Term.md",
-    "n8n.md",
     "NFS share.md",
     "OSI and TCP IP Models.md",
     "question.md",
